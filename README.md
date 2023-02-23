@@ -1,2 +1,2 @@
-# bimm143_github
+# BIMM143 
 my classwork from BIMM143
