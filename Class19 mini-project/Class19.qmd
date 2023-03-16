@@ -1,7 +1,7 @@
 ---
 title: "Class19 Mini-project"
 author: "Eduardo Modolo"
-format: pdf 
+format: gfm 
 ---
 
 #Investigating pertussis cases by year

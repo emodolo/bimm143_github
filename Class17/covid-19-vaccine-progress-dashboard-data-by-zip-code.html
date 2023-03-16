@@ -1,0 +1,1942 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="en" class="ie ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="ie ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+    <!--[if lte ie 8]><script type="text/javascript" src="/fanstatic/vendor/:version:2023-02-06T19:59:53/html5.min.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2023-02-06T19:59:53/select2/select2.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/css/:version:2023-02-06T19:59:53/main.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2023-02-06T19:59:53/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/ckanext-geoview/:version:2023-02-06T20:04:28/css/geo-resource-styles.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/ckanext-harvest/:version:2023-02-06T20:04:31/styles/harvest.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/ckanext-scheming/:version:2023-02-06T20:05:07/styles/scheming.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/og_theme/:version:2023-02-06T20:05:01/main.css" />
+
+    
+  <meta charset="utf-8" />
+      <meta name="generator" content="ckan 2.7.12" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="data" id="theme_config" theme_config='{"primary-color":"#cf6a04","secondary-color":"#044187","footer-color":"#044187","heading-color":"#333333","font-family":"Helvetica"}' />
+
+    <title>COVID-19 Vaccine Progress Dashboard Data by ZIP Code - Datasets - California Open Data</title>
+
+    
+    
+    
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+    
+    
+        <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-23110710-16', 'auto', {});
+  
+     
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+  
+</script>
+    
+
+    
+        <link rel="alternate" type="text/n3" href="/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071.n3?_external=True"/>
+        <link rel="alternate" type="text/ttl" href="/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071.ttl?_external=True"/>
+        <link rel="alternate" type="application/rdf+xml" href="/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071.xml?_external=True"/>
+        <link rel="alternate" type="application/ld+json" href="/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071.jsonld?_external=True"/>
+    
+
+  
+    
+    
+  
+  
+  
+      
+    
+  <link href='//fonts.googleapis.com/css?family=Lato:400italic,400,900' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+  
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/css/layout3.css" />
+
+  <link rel="stylesheet" href=/css/theme_config.css?:version:2022-10-07T08:28:03.92 />
+
+  <link rel="stylesheet" href="/css/layout3.css"/>
+
+  
+
+
+    
+    
+
+
+
+    
+    
+
+  <link rel="stylesheet" type="text/css" href="/css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/slick-theme.css"/>
+
+  
+  
+
+
+    
+      
+      
+    
+  
+  <meta property="og:title" content="COVID-19 Vaccine Progress Dashboard Data by ZIP Code - California Open Data">
+  <meta property="og:description" content="Note: Starting on July 13, 2022, the denominator for calculating vaccine coverage has been changed from age 5+ to all ages to reflect new vaccine eligibility criteria. Previously the denominator...">
+
+  
+  <meta property="og:url" content="https://data.ca.gov/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="COVID-19 Vaccine Progress Dashboard Data by ZIP Code - California Open Data" />
+  <meta name="twitter:description" content="Note: Starting on July 13, 2022, the denominator for calculating vaccine coverage has been changed from age 5+ to all ages to reflect new vaccine eligibility criteria. Previously the denominator..." />
+<style>
+        .tint {
+  background-color: rgba(1, 1, 1, 0.5);
+}
+
+.logo {
+  top: -2px;
+  max-width: 360px;
+  max-height: 100px;
+}
+
+.header-image .logo img {
+  max-width: 360px;
+  max-height: 100px;
+}
+
+.pull-left.header-image {
+  margin-bottom: 6px;
+}
+
+.masthead .nav-collapse {
+  padding-top: 3px;
+}
+
+.masonry-brick.media-item .media-image,
+.media-item.item-height .media-image {
+  height: 100px;
+}
+
+.main-updates li.dataset-item {
+  background-color: #eff2f5;
+}
+
+.main-updates li.dataset-item .dataset-heading {
+  max-height: 50px;
+}
+
+a[data-format="esri rest"], a[data-format="arcgis geoservices rest api"] {
+  display: none;
+}
+
+a:-webkit-any-link:focus {
+  transition: none;
+  outline: 2px solid #0095ff;
+  outline-offset: 2px;
+}
+
+.btn {
+  border-radius: 3px;
+}
+
+.ckanext-datapreview>iframe {
+  min-height: 500px;
+}
+
+@media (max-width: 767px) {
+  .header-image .logo img {
+    max-width: 295px;
+  }
+  .hero-text-description.secondary-heading {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+}
+
+.main-updates li.dataset-item .dataset-heading {
+  overflow-y: unset;
+  max-height: unset;
+  -webkit-line-clamp: unset;
+  -webkit-box-orient: unset;
+}
+
+
+/* A11y Fixes */
+
+.masthead {
+  background: #005e8a;
+}
+
+.masthead .nav>.active>a,
+.masthead .nav>li>a:hover,
+.masthead .nav>.active>a:hover {
+  color: #ffffff;
+}
+
+.supporting-text {
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+.hero-text-heading.heading {
+  font-size: 2.75em;
+}
+
+.hero-text-description.secondary-heading {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.hero-text-description.secondary-heading p:first-child strong {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+@media (min-width: 768px) {
+  .hero-text-heading.heading {
+    font-size: 2em;
+  }
+  .hero-text-description.secondary-heading {
+    font-size: 1.25em;
+    line-height: 1.5em;
+  }
+  .hero-text-description.secondary-heading p:first-child strong {
+    font-size: 1.25em;
+    line-height: 1.5em;
+  }
+}
+
+@media (min-width: 1366px) {
+  .hero-text-heading.heading {
+    font-size: 3em;
+  }
+  .hero-text-description.secondary-heading p:first-child strong {
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 32px;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 24px;
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 20px;
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 16px;
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 14px;
+  font-size: 0.875em;
+}
+
+h2.module-heading {
+  font-size: 1em !important;
+}
+
+.hero h1,
+.hero h2,
+.hero h3,
+.hero h4,
+.hero h5,
+.hero h6 {
+  font-size: 3em;
+}
+
+.hero-text-description {
+  font-size: 1.25em;
+}
+
+label {
+  font-size: 14px;
+}
+
+.carousel-controls {
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+.dataset-heading {
+  color: #333333 !important;
+}
+
+.context-info h1.heading {
+  font-size: 1em !important;
+}
+
+.feedback-count {
+  font-size: 3em;
+  line-height: 1.5em;
+}
+
+.hero p {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+.homepage .module-search .module-content .heading {
+  font-size: 1.75em;
+}
+
+.browse-group-title {
+  font-size: 1em;
+}
+
+.site-footer .fa {
+  font-size: 2em;
+}
+
+.search-form h2 {
+  font-size: 1.5em;
+}
+
+body {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.lead {
+  font-size: 1.5em;
+}
+
+blockquote p {
+  margin-bottom: 0;
+  font-size: 1.125em;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+code,
+pre {
+  padding: 0 3px 2px;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 12px;
+}
+
+pre {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+legend {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+legend small {
+  font-size: 1em;
+}
+
+label,
+button,
+select,
+textarea {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.close {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.btn {
+  font-size: 1em;
+}
+
+.btn-large {
+  font-size: 1.25em;
+}
+
+.btn-mini {
+  font-size: .75em;
+}
+
+.nav-header {
+  font-size: .8em;
+  line-height: 1.25em;
+}
+
+.navbar .brand {
+  font-size: 1.5em;
+}
+
+.navbar-search .search-query {
+  font-size: 1em;
+}
+
+.tooltip {
+  font-size: 0.8em;
+  line-height: 1.25em;
+}
+
+.label,
+.badge {
+  font-size: 0.8em;
+  line-height: 1.25em;
+}
+
+.progress .bar {
+  font-size: 1em;
+}
+
+.carousel-control {
+  font-size: 4.25em;
+}
+
+.hero-unit {
+  font-size: 1.25em;
+}
+
+.hero-unit h1 {
+  font-size: 4.25em;
+}
+
+.popover-title {
+  font-size: 1em;
+}
+
+.simple-item {
+  font-size: 1em;
+}
+
+.simple-list>li {
+  font-size: 1em;
+}
+
+.module-heading {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.group .content h3 {
+  font-size: 1em;
+  line-height: 1.25em;
+}
+
+.banner {
+  font-size: .8em;
+}
+
+.media-heading {
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+
+.media-overlay .media-heading {
+  font-size: 1.25em;
+}
+
+li {
+  line-height: 1.5em;
+}
+
+.nav-simple>li,
+.nav-aside>li {
+  font-size: .8em;
+}
+
+.nav-item>a,
+.nav-aside li a {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.control-large input,
+.control-large .control-label {
+  font-size: 1.125em;
+  line-height: 1.5em;
+}
+
+.form-actions .action-info.small {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.form-horizontal .info-block {
+  line-height: 1.5em;
+}
+
+.info-block .icon-large,
+.info-inline .icon-large {
+  font-size: 1.5em;
+}
+
+.editor .editor-info-block {
+  font-size: .8em;
+}
+
+.slug-preview {
+  font-size: 1em;
+}
+
+.dataset-heading {
+  font-size: 1.125em;
+  line-height: 1.5em;
+}
+
+.resource-item .heading {
+  font-size: 1.125em;
+}
+
+.resource-item .description {
+  font-size: 1em;
+}
+
+.view-list li a .icon i {
+  font-size: 2em;
+  line-height: 2.8em;
+}
+
+.view-list li a h3 {
+  font-size: 1.125em;
+}
+
+.search-form .search-input.search-giant input {
+  font-size: 1.125em;
+}
+
+.search-form .search-input.search-giant button {
+  margin-top: -22px;
+  height: 43px;
+}
+
+.search-form .search-input.search-giant button i {
+  font-size: 1.5em;
+}
+
+.search-form .control-order-by label,
+.search-form .control-order-by select {
+  display: inline
+}
+
+.search-form h2 {
+  font-size: 1.75em;
+  line-height: 1.5em;
+}
+
+.search-form h2 {
+  font-size: 1.75em;
+  line-height: 1.5em;
+}
+
+.search-form .filter-list .extra {
+  font-size: 1.125em;
+}
+
+.tertiary .control-order-by select {
+  font-size: .8em;
+}
+
+.toolbar .breadcrumb {
+  font-size: 1.125em;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.breadcrumb .home .icon-home {
+  font-size: 1.75em;
+}
+
+.info-block-small [class^="icon-"],
+.info-block-small [class*=" icon-"] {
+  font-size: 1em;
+}
+
+.context-info h1.heading {
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+
+.context-info .nums dl dt {
+  font-size: 1em;
+}
+
+.context-info .nums dl dd {
+  font-size: 2.5em;
+  line-height: 2.75em;
+}
+
+.homepage .module-search .module-content .heading {
+  font-size: 1.75em;
+  line-height: 2.8em;
+}
+
+.homepage .module-search .tags h3 {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.homepage .stats ul li a b {
+  display: block;
+  font-size: 1.75em;
+  line-height: 1.5em;
+}
+
+.account-masthead .account ul li a {
+  font-size: 1em !important;
+  line-height: 2em !important;
+  color: #ffffff !important;
+}
+
+.account-masthead .account .notifications a span.badge {
+  font-size: 1em;
+}
+
+.masthead hgroup h1,
+.masthead hgroup h2 {
+  font-size: 2.125em;
+}
+
+.masthead hgroup h2 {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.site-footer hgroup h1,
+.site-footer hgroup h2 {
+  font-size: 2em;
+  line-height: 2.5em;
+}
+
+.site-footer hgroup h2 {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.activity .item p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.activity .item .date {
+  font-size: 1em;
+}
+
+.popover .popover-content {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.popover-followee .popover-header input {
+  font-size: 1em;
+}
+
+.dashboard-me strong {
+  font-size: 1.125em;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 1.75rem;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 1.75rem;
+}
+
+.slick-prev {
+  left: -30px;
+}
+
+.slick-prev:focus,
+.slick-next:focus {
+  outline: solid 2px #2ea3f2;
+}
+
+.masthead .navigation .nav-pills {
+  margin-bottom: 0;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+
+.navbar .nav>li {
+  line-height: 1.5em;
+}
+
+.navbar .nav>li>a {
+  line-height: 1.5em;
+}
+
+.nav-tabs>li>a {
+  line-height: 1.5em;
+}
+
+.module .pagination li a {
+  line-height: 1.5em;
+}
+
+.pagination ul>li>a,
+.pagination ul>li>span {
+  line-height: 1.5em;
+}
+
+.context-info .nums dl dt {
+  display: block;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.context-info .nums dl dd {
+  font-size: 2em;
+  line-height: 2.5em;
+}
+
+.empty {
+  font-style: normal;
+}
+
+.form-actions .control-required-message {
+  line-height: 1.5em;
+}
+
+.slick-showcase .media-item h3 {
+  overflow: auto;
+  font-size: 100%;
+}
+
+#organization-search-form+.media-grid h3,
+#group-search-form+.media-grid h3 {
+  font-size: 90%;
+  overflow: auto;
+  padding: 8px;
+}
+
+.media-view>span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+  display: block;
+}
+
+.media-item {
+  overflow: auto;
+}
+
+.dataset-heading a {
+  color: #333333 !important;
+}
+
+.dataset-heading a:hover {
+  color: #00499c;
+}
+
+.browse-group-title {
+  font-size: 1em;
+  font-weight: bolder;
+  color: #333333 !important;
+}
+
+#field-sitewide-search:focus {
+  outline: solid 2px #2ea3f2;
+}
+
+input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.input-append .add-on, .input-prepend .add-on {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.label[data-diff="error"], .label[data-diff="error"] a {
+    background-color: #8b0000;
+    color: #ffffff;
+}
+
+p a {
+  text-decoration: underline;
+}
+
+.dataset-item {
+  border-bottom: 1px dotted #dddddd;
+}
+      </style>
+    
+  </head>
+
+  
+  <body data-site-root="https://data.ca.gov/" data-locale-root="https://data.ca.gov/" >
+
+    
+  <div class="sr-only sr-only-focusable"><a href="#content">Skip to content</a></div>
+
+
+  
+  
+  
+
+  
+
+  <div class="account-masthead">
+    <div class="container">
+      
+        
+          <nav class="account not-authed" aria-label="Account">
+            <ul class="unstyled">
+              
+                
+    
+              <li><a href="/user/login">Log in</a></li>
+              
+                <li><a class="sub" href="/user/register">Register</a></li>
+              
+              
+    
+    <li>
+      <a href="/contact" title="Contact">
+        
+           Contact
+        
+      </a>
+    </li>
+
+
+              
+            </ul>
+          </nav>
+        
+      
+  </div>
+</div>
+
+<header class="navbar navbar-static-top masthead">
+  
+    
+    
+  
+  
+  <div class="container">
+    <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button" aria-label="expand or collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="fa fa-bars"></span>
+    </button>
+    
+    <hgroup class="header-image pull-left">
+
+      
+        
+        
+          <a class="logo" href="/"><img src="/uploads/admin/2021-03-10-185437.380917ca-data-logo-ca.png" alt="California Open Data" title="California Open Data" /></a>
+        
+      
+      
+
+    </hgroup>
+
+    <div class="nav-collapse collapse">
+      
+        <nav class="section navigation">
+          <ul class="nav nav-pills">
+            
+              <li><a href="/dataset">Datasets</a></li><li><a href="/organization">Organizations</a></li><li><a href="/group">Topics</a></li><li><a href="/pages/state-portals">State Portals</a></li><li><a href="/pages/documentation">Documentation</a></li><li><a href="/pages/portal-metrics">Portal Metrics</a></li><li><a href="/pages/ca-state-geoportal">CA State Geoportal</a></li>
+            
+            <!-- "About" tab is separated from the h.build_nav_main() function so the "About" tab is always right aligned. -->
+            <li>
+              <a href="/about" title="About">
+                <span class="text">About</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        
+      
+        <form class="section site-search simple-input" action="/dataset" method="get">
+          <div class="field">
+            <label for="field-sitewide-search">Search Datasets</label>
+            <input id="field-sitewide-search" type="text" name="q" aria-label="Search datasets"/>
+            <label for="sitewide-search-button">Search Button</label>
+            <button id="sitewide-search-button" class="btn-search" type="submit" aria-label="Submit"><i class="fa fa-search"></i></button>
+          </div>
+        </form>
+      
+
+    </div>
+  </div>
+</header>
+
+
+  <main role="main">
+    <div id="content" class="container">
+      
+        
+          
+            <div class="flash-messages">
+              
+                
+              
+            </div>
+          
+        
+
+        
+          
+            <div class="toolbar">
+              
+                
+                  <ol class="breadcrumb">
+                    
+<li class="home"><a href="/"><i class="fa fa-home"></i><span> Home</span></a></li>
+                    
+  
+    
+    
+      
+      <li><a href="/organization">Organizations</a></li>
+      <li><a href="/organization/california-department-of-public-health">California Department of ...</a></li>
+    
+    <li class="active"><a href="/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code">COVID-19 Vaccine Progress Dashboard Data by ZIP Code</a></li>
+  
+
+                  </ol>
+                
+              
+            </div>
+          
+        
+
+        <div class="row wrapper">
+          
+            
+            
+          
+
+          
+            <div class="primary span9 main-responsive-panel">
+              
+                
+                  <article class="module">
+                    
+                      <header class="module-content page-header">
+                        
+                        <ul class="nav nav-tabs">
+                          
+  
+  <li><a href="/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code">Dataset</a></li>
+  <li><a href="/dataset/groups/covid-19-vaccine-progress-dashboard-data-by-zip-code"><i class="fa fa-users"></i> Topics</a></li>
+  <li><a href="/dataset/activity/covid-19-vaccine-progress-dashboard-data-by-zip-code"><i class="fa fa-clock-o"></i> Activity Stream</a></li>
+
+  <li><a href="/dataset/showcases/covid-19-vaccine-progress-dashboard-data-by-zip-code"><i class="fa fa-picture"></i> Showcases</a></li>
+
+                        </ul>
+                      </header>
+                    
+                    <div class="module-content">
+                      
+                      
+  
+    
+      
+    
+
+  
+  
+    
+    <h1>
+      
+        COVID-19 Vaccine Progress Dashboard Data by ZIP Code
+        
+        
+      
+    </h1>
+    
+    <div class="notes embedded-content">
+      <p><strong>Note</strong>: Starting on July 13, 2022, the denominator for calculating vaccine coverage has been changed from age 5+ to all ages to reflect new vaccine eligibility criteria. Previously the denominator was changed from age 16+ to age 12+ on May 18, 2021, then changed from age 12+ to age 5+ on November 10, 2021, to reflect previous changes in vaccine eligibility criteria. The previous datasets based on age 12+ and age 5+ denominators have been uploaded as archived tables. </p>
+<p><strong>Note</strong>:  Starting June 30, 2021, the dataset has been reconfigured so that all updates are appended to one dataset to make it easier for API and other interfaces. In addition, historical data has been extended back to January 5, 2021.</p>
+<p>This dataset shows full, partial, and at least 1 dose coverage rates by zip code tabulation area (ZCTA) for the state of California. Data sources include the California Immunization Registry and the American Community Survey’s 2015-2019 5-Year data.</p>
+<p>This is the data table for the <a href="https://public.tableau.com/profile/ca.open.data#!/vizhome/LHJVaccineEquityPerformance/MapView?publish=yes">LHJ Vaccine Equity Performance dashboard</a>. However, this data table also includes ZTCAs that do not have a VEM score.</p>
+<p>This dataset also includes Vaccine Equity Metric score quartiles (when applicable), which combine the Public Health Alliance of Southern California’s Healthy Places Index (HPI) measure with CDPH-derived scores to estimate factors that impact health, like income, education, and access to health care. ZTCAs range from less healthy community conditions in Quartile 1 to more healthy community conditions in Quartile 4.</p>
+<p>The Vaccine Equity Metric is for weekly vaccination allocation and reporting purposes only. CDPH-derived quartiles should not be considered as indicative of the HPI score for these zip codes. CDPH-derived quartiles were assigned to zip codes excluded from the HPI score produced by the Public Health Alliance of Southern California due to concerns with statistical reliability and validity in populations smaller than 1,500 or where more than 50% of the population resides in a group setting.</p>
+<p>These data do not include doses administered by the following federal agencies who received vaccine allocated directly from CDC: Indian Health Service, Veterans Health Administration, Department of Defense, and the Federal Bureau of Prisons.</p>
+<p>For some ZTCAs, vaccination coverage may exceed 100%. This may be a result of many people from outside the county coming to that ZTCA to get their vaccine and providers reporting the county of administration as the county of residence, and/or the DOF estimates of the population in that ZTCA are too low. Please note that population numbers provided by DOF are projections and so may not be accurate, especially given unprecedented shifts in population as a result of the pandemic.</p>
+    </div>
+  
+
+    
+    <span class="insert-comment-thread"></span>
+  
+  
+  
+
+
+  
+    
+<section id="dataset-resources" class="resources">
+  <h3>Data and Resources</h3>
+  
+    
+      <ul class="resource-list">
+        
+          
+          
+            
+
+
+<li class="resource-item" data-id="8696bf33-9844-4bea-861b-cf58e8a43f48">
+  
+  <a class="heading" href="/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code/resource/8696bf33-9844-4bea-861b-cf58e8a43f48" title="COVID-19 Vaccines by ZIP Code Data Dictionary">
+    COVID-19 Vaccines by ZIP Code Data Dictionary<span class="format-label" property="dc:format" data-format="xlsx">XLSX</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="394 views" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a>
+  
+  
+    <p class="description">
+      
+        COVID-19 Vaccines by ZIP Code Data Dictionary
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="fa fa-share"></i>
+      Explore
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      
+  
+      <li>
+        <a href="/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code/resource/8696bf33-9844-4bea-861b-cf58e8a43f48">
+          
+            <i class="fa fa-bar-chart-o"></i>
+            Preview
+          
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://data.chhs.ca.gov/dataset/ead44d40-fd63-4f9f-950a-3b0111074de8/resource/b5e9e666-afa0-4f89-8241-554a44910b98/download/coveragebyzip_od_data_dictionary.xlsx" class="resource-url-analytics" target="_blank">
+          
+            <i class="fa fa-arrow-circle-o-down"></i>
+            Download
+          
+        </a>
+      </li>
+      
+      
+      
+  
+
+    </ul>
+  </div>
+  
+  
+</li>
+          
+            
+
+
+<li class="resource-item" data-id="29cd0b19-c7e6-4eb1-8be8-2b6e269f446e">
+  
+  <a class="heading" href="/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code/resource/29cd0b19-c7e6-4eb1-8be8-2b6e269f446e" title="Statewide COVID-19 Vaccines Administered by Zip Code">
+    Statewide COVID-19 Vaccines Administered by ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="592 views" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a>
+  
+  
+    <p class="description">
+      
+        COVID-19 Vaccines Administered by Zip Code
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="fa fa-share"></i>
+      Explore
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      
+  
+      <li>
+        <a href="/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code/resource/29cd0b19-c7e6-4eb1-8be8-2b6e269f446e">
+          
+            <i class="fa fa-bar-chart-o"></i>
+            Preview
+          
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://data.chhs.ca.gov/dataset/ead44d40-fd63-4f9f-950a-3b0111074de8/resource/ec32eece-7474-4488-87f0-6e91cb577458/download/covid19vaccinesbyzipcode_test.csv" class="resource-url-analytics" target="_blank">
+          
+            <i class="fa fa-arrow-circle-o-down"></i>
+            Download
+          
+        </a>
+      </li>
+      
+      
+      
+  
+
+    </ul>
+  </div>
+  
+  
+</li>
+          
+            
+
+
+<li class="resource-item" data-id="6dd458cc-78d7-47fe-8f9c-3f92c287539d">
+  
+  <a class="heading" href="/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code/resource/6dd458cc-78d7-47fe-8f9c-3f92c287539d" title="Statewide COVID-19 Vaccines Administered by Zip Code (Age 5+ archived)">
+    Statewide COVID-19 Vaccines Administered by ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="12 views" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a>
+  
+  
+    <p class="description">
+      
+        Legacy table based on age 5+ denominators up to July 12, 2022.
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="fa fa-share"></i>
+      Explore
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      
+  
+      <li>
+        <a href="/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code/resource/6dd458cc-78d7-47fe-8f9c-3f92c287539d">
+          
+            <i class="fa fa-bar-chart-o"></i>
+            Preview
+          
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://data.chhs.ca.gov/dataset/ead44d40-fd63-4f9f-950a-3b0111074de8/resource/580fb3a5-2451-4e18-be50-5a22f1ee7341/download/covid19vaccinesbyzipcode_071222.csv" class="resource-url-analytics" target="_blank">
+          
+            <i class="fa fa-arrow-circle-o-down"></i>
+            Download
+          
+        </a>
+      </li>
+      
+      
+      
+  
+
+    </ul>
+  </div>
+  
+  
+</li>
+          
+            
+
+
+<li class="resource-item" data-id="2006e16c-4ec5-4992-8de0-3e4481eb872f">
+  
+  <a class="heading" href="/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code/resource/2006e16c-4ec5-4992-8de0-3e4481eb872f" title="Statewide COVID-19 Vaccines Administered by Zip Code (Age 12+ archived)">
+    Statewide COVID-19 Vaccines Administered by ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="16 views" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a>
+  
+  
+    <p class="description">
+      
+        Legacy table based on age 12+ denominators up to November 9, 2021.
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="fa fa-share"></i>
+      Explore
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      
+  
+      <li>
+        <a href="/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code/resource/2006e16c-4ec5-4992-8de0-3e4481eb872f">
+          
+            <i class="fa fa-bar-chart-o"></i>
+            Preview
+          
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://data.chhs.ca.gov/dataset/ead44d40-fd63-4f9f-950a-3b0111074de8/resource/235174a5-f5b6-4759-8ab9-76191bfea324/download/covid19vaccinesbyzipcode_denominator16.csv" class="resource-url-analytics" target="_blank">
+          
+            <i class="fa fa-arrow-circle-o-down"></i>
+            Download
+          
+        </a>
+      </li>
+      
+      
+      
+  
+
+    </ul>
+  </div>
+  
+  
+</li>
+          
+            
+
+
+<li class="resource-item" data-id="56baeab0-032d-4183-b677-ceb596259a23">
+  
+  <a class="heading" href="/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code/resource/56baeab0-032d-4183-b677-ceb596259a23" title="All resource data">
+    All resource data<span class="format-label" property="dc:format" data-format="zip">ZIP</span>
+    
+
+  </a>
+  
+  
+    <p class="description">
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="fa fa-share"></i>
+      Explore
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      
+  
+      <li>
+        <a href="/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code/resource/56baeab0-032d-4183-b677-ceb596259a23">
+          
+            <i class="fa fa-info-circle"></i>
+            More information
+          
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://data.chhs.ca.gov/dataset/ead44d40-fd63-4f9f-950a-3b0111074de8/resource/654d8c82-9d54-4178-b850-360ef082a0a4/download/covid-19-vaccine-progress-dashboard-data-by-zip-code-9u0_th.zip" class="resource-url-analytics" target="_blank">
+          
+            <i class="fa fa-external-link"></i>
+            Go to resource
+          
+        </a>
+      </li>
+      
+      
+      
+  
+
+    </ul>
+  </div>
+  
+  
+</li>
+          
+            
+
+
+<li class="resource-item" data-id="c5c76e8b-f190-4e59-a9a8-691239341d37">
+  
+  <a class="heading" href="/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code/resource/c5c76e8b-f190-4e59-a9a8-691239341d37" title="COVID-19 Vaccines Shipped, Delivered, On Hand by ZIP Code - Data Dictionary">
+    COVID-19 Vaccines Shipped, Delivered, On Hand ...<span class="format-label" property="dc:format" data-format="xlsx">XLSX</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="110 views" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a>
+  
+  
+    <p class="description">
+      
+        COVID-19 Vaccines Shipped, Delivered, On Hand by ZIP Code - Data Dictionary
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="fa fa-share"></i>
+      Explore
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      
+  
+      <li>
+        <a href="/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code/resource/c5c76e8b-f190-4e59-a9a8-691239341d37">
+          
+            <i class="fa fa-bar-chart-o"></i>
+            Preview
+          
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://data.chhs.ca.gov/dataset/ead44d40-fd63-4f9f-950a-3b0111074de8/resource/c8019550-221d-4b26-9210-2f2fbeee6cbf/download/shipped_delivered_on_hand_by_county_and_zip_odp_data_dictionary_v2.xlsx" class="resource-url-analytics" target="_blank">
+          
+            <i class="fa fa-arrow-circle-o-down"></i>
+            Download
+          
+        </a>
+      </li>
+      
+      
+      
+  
+
+    </ul>
+  </div>
+  
+  
+</li>
+          
+            
+
+
+<li class="resource-item" data-id="587fd466-5a6c-48ed-9a57-1bcdff2c8f13">
+  
+  <a class="heading" href="/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code/resource/587fd466-5a6c-48ed-9a57-1bcdff2c8f13" title="COVID-19 Vaccines Shipped, Delivered, On Hand, by County &amp; Zip">
+    COVID-19 Vaccines Shipped, Delivered, On Hand, ...<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+<span class="popular ckan-icon ckan-icon-flame" title="38 views" xmlns="http://www.w3.org/1999/xhtml">Popular</span>
+
+  </a>
+  
+  
+    <p class="description">
+      
+        Statewide COVID-19 Vaccines Shipped, Delivered, On Hand, by County &amp; Zip
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="fa fa-share"></i>
+      Explore
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      
+  
+      <li>
+        <a href="/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code/resource/587fd466-5a6c-48ed-9a57-1bcdff2c8f13">
+          
+            <i class="fa fa-bar-chart-o"></i>
+            Preview
+          
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://data.chhs.ca.gov/dataset/ead44d40-fd63-4f9f-950a-3b0111074de8/resource/4ebd81ad-1ab9-4a3d-aeda-8a0f06cfee7b/download/covid19vaccinesshippeddeliveredonhandbyzip.csv" class="resource-url-analytics" target="_blank">
+          
+            <i class="fa fa-arrow-circle-o-down"></i>
+            Download
+          
+        </a>
+      </li>
+      
+      
+      
+  
+
+    </ul>
+  </div>
+  
+  
+</li>
+          
+        
+      </ul>
+    
+    
+</section>
+  
+
+  
+    
+  <section class="tags">
+    <h3>Tags</h3>
+    
+
+
+  <ul class="tag-list well">
+    
+      <li>
+        <a class="tag" href="/dataset?tags=california+department+of+public+health">california departme...</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=covid">covid</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=covid-19">covid-19</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=covid19">covid19</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=vaccines">vaccines</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=zip+code">zip code</a>
+      </li>
+    
+  </ul>
+
+  </section>
+
+  
+
+  
+  <section class="additional-info">
+  <h3 style="display:inline-block">Additional Info &nbsp;</h3>
+  <div class="btn-group">
+    <a class="btn btn-primary round-corner-btn" href="/metadata_download/covid-19-vaccine-progress-dashboard-data-by-zip-code"><i class="icon-download"></i> Download</a>
+  </div>
+  <table class="table table-striped table-bordered table-condensed" summary="metadata about the dataset">
+    <thead>
+      <tr>
+        <th scope="col">Field</th>
+        <th scope="col">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+            <th scope="row" class="dataset-label">Public Access Level</th>
+            <td class="dataset-details">Public</td>
+          </tr><tr>
+            <th scope="row" class="dataset-label">Rights</th>
+            <td class="dataset-details">No restrictions on public use</td>
+          </tr><tr>
+            <th scope="row" class="dataset-label">Program Contact Name</th>
+            <td class="dataset-details">California COVID-19 Vaccination Program</td>
+          </tr><tr>
+            <th scope="row" class="dataset-label">Program Contact Email</th>
+            <td class="dataset-details"><a href="/cdn-cgi/l/email-protection#036c73666d67627762436067736b2d60622d646c75"><span class="__cf_email__" data-cfemail="fc938c9992989d889dbc9f988c94d29f9dd29b938a">[email&#160;protected]</span></a></td>
+          </tr><tr>
+            <th scope="row" class="dataset-label">Frequency</th>
+            <td class="dataset-details">Weekly</td>
+          </tr><tr>
+            <th scope="row" class="dataset-label">Temporal Coverage</th>
+            <td class="dataset-details"><p>December 2020-present</p></td>
+          </tr><tr>
+            <th scope="row" class="dataset-label">Source Link</th>
+            <td class="dataset-details" property="foaf:homepage"><a href="https://covid19.ca.gov/vaccines/" rel="foaf:homepage" target="_blank">https://covid19.ca.gov/vaccines/</a></td>
+          </tr>
+      
+          <tr>
+            <th scope="row" class="dataset-label">Last Updated</th>
+            <td class="dataset-details">
+              
+<span class="automatic-local-datetime" data-datetime="2023-03-06T18:10:11+0000">
+    March 6, 2023, 18:10 (UTC)
+</span>
+            </td>
+          </tr>
+        
+        
+          <tr>
+            <th scope="row" class="dataset-label">Created</th>
+            <td class="dataset-details">
+              
+<span class="automatic-local-datetime" data-datetime="2022-06-22T23:10:35+0000">
+    June 22, 2022, 23:10 (UTC)
+</span>
+            </td>
+          </tr>
+        
+
+        
+          
+          
+            
+            
+          
+            
+            
+              <tr>
+                <th scope="row" class="dataset-label">DCAT Issued Date</th>
+                <td class="dataset-details">2021-04-20T19:33:13.955867</td>
+              </tr>
+            
+          
+            
+            
+              <tr>
+                <th scope="row" class="dataset-label">DCAT Modified Date</th>
+                <td class="dataset-details">2023-03-06T17:03:18.375916</td>
+              </tr>
+            
+          
+            
+            
+          
+        
+
+    
+    </tbody>
+  </table>
+</section>
+
+
+
+
+                    </div>
+                  </article>
+                
+              
+            </div>
+          
+
+          
+            <aside class="secondary span3 aside-fixed-panel">
+              
+
+  
+
+  
+    
+
+  
+    <section class="module module-narrow">
+      <div class="module context-info">
+        <div class="module-content">
+          
+            
+            
+              <h1 class="heading">COVID-19 Vaccine Progress Dashboard Data by ZIP Code</h1>
+            
+            
+              <div class="nums">
+                <dl>
+                  <dt>Followers</dt>
+                  <dd><span>0</span></dd>
+                </dl>
+              </div>
+            
+            
+              
+                <div class="follow_button">
+                  
+                </div>
+              
+            
+          
+          
+        </div>
+      </div>
+    </section>
+    
+  
+
+  
+
+  
+    
+      
+      
+
+
+
+
+  
+  <div class="module module-narrow module-shallow context-info">
+    
+      <h2 class="module-heading"><i class="fa fa-building-o"></i> Organization</h2>
+    
+    <section class="module-content">
+      
+      
+        <div class="image">
+          <a href="/organization/california-department-of-public-health">
+            <img src="https://data.ca.gov/uploads/group/2018-12-07-182426.195602CDPHLogo.png" width="200" alt="california-department-of-public-health" />
+          </a>
+        </div>
+      
+      
+      <h1 class="heading">California Department of Public Health
+        
+      </h1>
+      
+      
+      
+      
+      
+    </section>
+  </div>
+
+    
+  
+
+  
+    
+
+  <section class="module module-narrow social">
+    
+      <h2 class="module-heading"><i class="fa fa-medium fa-share-square-o"></i> Social</h2>
+    
+    
+      <ul class="nav nav-simple">
+        <li class="nav-item"><a href="https://twitter.com/share?url=https://data.ca.gov/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+        <li class="nav-item"><a href="https://www.facebook.com/sharer.php?u=https://data.ca.gov/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+        <li class="nav-item"><a href="https://www.linkedin.com/shareArticle?url=https://data.ca.gov/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code"" target="_blank"><i class="fa fa-linkedin-square"></i> Linkedin</a></li>
+      </ul>
+    
+  </section>
+
+  
+
+  
+    
+
+
+  
+    
+  
+
+  
+
+
+            </aside>
+          
+        </div>
+      
+    </div>
+  </main>
+
+    <footer class="site-footer">
+  <div class="container">
+    
+    <div class="row">
+      <div class="span8 footer-links" style="padding-bottom:12px;">
+        
+          <ul class="unstyled">
+            
+              <li><a href="/about">About California Open Data</a></li>
+            
+          </ul>
+          <ul class="unstyled">
+            
+              
+              <li><a target="_blank" href="/docs/api/index.html">API Documentation</a></li>
+            
+          </ul>
+          <ul class="unstyled">
+              <li><a href="/pages/portal-metrics">Portal Metrics</a></li>
+          </ul>
+          
+          <ul class="unstyled">
+              <li><a href="/contact">Contact Us</a></li>
+          </ul>
+          
+        
+      </div>
+      <div class="span4 attribution">
+        
+           <strong>Powered by</strong> <div style="white-space:nowrap; padding-bottom:16px;"> <a class="hide-text" target="_blank" href="https://opengov.com/?utm_campaign=Footer-Product-OpenData&utm_source=OpenGov&utm_medium=product&utm_term=PO-OGOV-1274&utm_content=logo" style="float:left;"> <img src="/img/OpenGov_Logo.png" style="max-height:24px" alt="OpenGov"> </a> <a class="hide-text ckan-footer-logo" target="_blank" href="http://ckan.org" style="margin-left:144px;">CKAN</a> </div> 
+        
+      
+      </div>
+    </div>
+    
+  </div>
+
+  
+    
+  
+</footer>
+  
+    
+    
+    
+    
+      
+    
+  
+    
+
+    
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TKCM6M7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TKCM6M7');</script>
+<!-- End Google Tag Manager -->
+
+
+    
+        
+        
+        <div class="js-hide" data-module="google-analytics"
+             data-module-googleanalytics_resource_prefix="">
+        </div>
+    
+
+
+    
+
+
+  
+      
+  
+    
+
+      
+          <script type="application/ld+json">
+           {
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "http://schema.org/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    },
+    "@graph": [
+        {
+            "@id": "https://data.ca.gov/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071",
+            "@type": "schema:Dataset",
+            "schema:about": [
+                {
+                    "@id": "_:N4063c7b6fbc9404d9eff1466bc852c89"
+                },
+                {
+                    "@id": "_:N2269c2ce42324fabb483f0761b83e4da"
+                }
+            ],
+            "schema:dateModified": "2023-03-06T17:03:18.375916",
+            "schema:datePublished": "2021-04-20T19:33:13.955867",
+            "schema:description": "__Note__: Starting on July 13, 2022, the denominator for calculating vaccine coverage has been changed from age 5+ to all ages to reflect new vaccine eligibility criteria. Previously the denominator was changed from age 16+ to age 12+ on May 18, 2021, then changed from age 12+ to age 5+ on November 10, 2021, to reflect previous changes in vaccine eligibility criteria. The previous datasets based on age 12+ and age 5+ denominators have been uploaded as archived tables. \r\n\r\n__Note__:  Starting June 30, 2021, the dataset has been reconfigured so that all updates are appended to one dataset to make it easier for API and other interfaces. In addition, historical data has been extended back to January 5, 2021.\r\n\r\nThis dataset shows full, partial, and at least 1 dose coverage rates by zip code tabulation area (ZCTA) for the state of California. Data sources include the California Immunization Registry and the American Community Survey\u2019s 2015-2019 5-Year data.\r\n\r\nThis is the data table for the [LHJ Vaccine Equity Performance dashboard](https://public.tableau.com/profile/ca.open.data#!/vizhome/LHJVaccineEquityPerformance/MapView?publish=yes). However, this data table also includes ZTCAs that do not have a VEM score.\r\n\r\nThis dataset also includes Vaccine Equity Metric score quartiles (when applicable), which combine the Public Health Alliance of Southern California\u2019s Healthy Places Index (HPI) measure with CDPH-derived scores to estimate factors that impact health, like income, education, and access to health care. ZTCAs range from less healthy community conditions in Quartile 1 to more healthy community conditions in Quartile 4.\r\n\r\nThe Vaccine Equity Metric is for weekly vaccination allocation and reporting purposes only. CDPH-derived quartiles should not be considered as indicative of the HPI score for these zip codes. CDPH-derived quartiles were assigned to zip codes excluded from the HPI score produced by the Public Health Alliance of Southern California due to concerns with statistical reliability and validity in populations smaller than 1,500 or where more than 50% of the population resides in a group setting.\r\n\r\nThese data do not include doses administered by the following federal agencies who received vaccine allocated directly from CDC: Indian Health Service, Veterans Health Administration, Department of Defense, and the Federal Bureau of Prisons.\r\n\r\nFor some ZTCAs, vaccination coverage may exceed 100%. This may be a result of many people from outside the county coming to that ZTCA to get their vaccine and providers reporting the county of administration as the county of residence, and/or the DOF estimates of the population in that ZTCA are too low. Please note that population numbers provided by DOF are projections and so may not be accurate, especially given unprecedented shifts in population as a result of the pandemic.",
+            "schema:distribution": [
+                {
+                    "@id": "https://data.ca.gov/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071/resource/29cd0b19-c7e6-4eb1-8be8-2b6e269f446e"
+                },
+                {
+                    "@id": "https://data.ca.gov/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071/resource/8696bf33-9844-4bea-861b-cf58e8a43f48"
+                },
+                {
+                    "@id": "https://data.ca.gov/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071/resource/587fd466-5a6c-48ed-9a57-1bcdff2c8f13"
+                },
+                {
+                    "@id": "https://data.ca.gov/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071/resource/2006e16c-4ec5-4992-8de0-3e4481eb872f"
+                },
+                {
+                    "@id": "https://data.ca.gov/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071/resource/c5c76e8b-f190-4e59-a9a8-691239341d37"
+                },
+                {
+                    "@id": "https://data.ca.gov/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071/resource/56baeab0-032d-4183-b677-ceb596259a23"
+                },
+                {
+                    "@id": "https://data.ca.gov/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071/resource/6dd458cc-78d7-47fe-8f9c-3f92c287539d"
+                }
+            ],
+            "schema:includedInDataCatalog": {
+                "@id": "_:N18287a85195c429788524f6766fa7c29"
+            },
+            "schema:keywords": [
+                "covid",
+                "covid19",
+                "covid-19",
+                "vaccines",
+                "zip code",
+                "california department of public health"
+            ],
+            "schema:name": "COVID-19 Vaccine Progress Dashboard Data by ZIP Code",
+            "schema:publisher": {
+                "@id": "_:N76abaf5bd5ba445bbb7e014d606e9d85"
+            },
+            "schema:url": "https://data.ca.gov/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code"
+        },
+        {
+            "@id": "_:Nf79d25c765c44ce2a263514b97d515d9",
+            "@type": "schema:ContactPoint",
+            "schema:contactType": "customer service",
+            "schema:email": "opendata@cdph.ca.gov",
+            "schema:name": "California Department of Public Health",
+            "schema:url": "https://data.ca.gov"
+        },
+        {
+            "@id": "https://data.ca.gov/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071/resource/2006e16c-4ec5-4992-8de0-3e4481eb872f",
+            "@type": "schema:DataDownload",
+            "schema:description": "Legacy table based on age 12+ denominators up to November 9, 2021.",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Statewide COVID-19 Vaccines Administered by Zip Code (Age 12+ archived)",
+            "schema:url": "https://data.chhs.ca.gov/dataset/ead44d40-fd63-4f9f-950a-3b0111074de8/resource/235174a5-f5b6-4759-8ab9-76191bfea324/download/covid19vaccinesbyzipcode_denominator16.csv"
+        },
+        {
+            "@id": "https://data.ca.gov/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071/resource/587fd466-5a6c-48ed-9a57-1bcdff2c8f13",
+            "@type": "schema:DataDownload",
+            "schema:description": "Statewide COVID-19 Vaccines Shipped, Delivered, On Hand, by County \u0026 Zip",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "COVID-19 Vaccines Shipped, Delivered, On Hand, by County \u0026 Zip",
+            "schema:url": "https://data.chhs.ca.gov/dataset/ead44d40-fd63-4f9f-950a-3b0111074de8/resource/4ebd81ad-1ab9-4a3d-aeda-8a0f06cfee7b/download/covid19vaccinesshippeddeliveredonhandbyzip.csv"
+        },
+        {
+            "@id": "https://data.ca.gov/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071/resource/6dd458cc-78d7-47fe-8f9c-3f92c287539d",
+            "@type": "schema:DataDownload",
+            "schema:description": "Legacy table based on age 5+ denominators up to July 12, 2022.",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Statewide COVID-19 Vaccines Administered by Zip Code (Age 5+ archived)",
+            "schema:url": "https://data.chhs.ca.gov/dataset/ead44d40-fd63-4f9f-950a-3b0111074de8/resource/580fb3a5-2451-4e18-be50-5a22f1ee7341/download/covid19vaccinesbyzipcode_071222.csv"
+        },
+        {
+            "@id": "https://data.ca.gov/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071/resource/8696bf33-9844-4bea-861b-cf58e8a43f48",
+            "@type": "schema:DataDownload",
+            "schema:description": "COVID-19 Vaccines by ZIP Code Data Dictionary",
+            "schema:encodingFormat": "XLSX",
+            "schema:name": "COVID-19 Vaccines by ZIP Code Data Dictionary",
+            "schema:url": "https://data.chhs.ca.gov/dataset/ead44d40-fd63-4f9f-950a-3b0111074de8/resource/b5e9e666-afa0-4f89-8241-554a44910b98/download/coveragebyzip_od_data_dictionary.xlsx"
+        },
+        {
+            "@id": "_:N2269c2ce42324fabb483f0761b83e4da",
+            "@type": "schema:Thing",
+            "schema:name": "health-human-services",
+            "schema:url": "https://data.ca.gov/group/130719de-62b5-4171-8991-c7f11d8a90ef"
+        },
+        {
+            "@id": "_:N76abaf5bd5ba445bbb7e014d606e9d85",
+            "@type": "schema:Organization",
+            "schema:contactPoint": {
+                "@id": "_:Nf79d25c765c44ce2a263514b97d515d9"
+            },
+            "schema:name": "California Department of Public Health"
+        },
+        {
+            "@id": "_:N18287a85195c429788524f6766fa7c29",
+            "@type": "schema:DataCatalog",
+            "schema:description": "ODC_SITE_DESCRIPTION",
+            "schema:name": "California Open Data",
+            "schema:url": "https://data.ca.gov"
+        },
+        {
+            "@id": "_:N4063c7b6fbc9404d9eff1466bc852c89",
+            "@type": "schema:Thing",
+            "schema:name": "covid-19",
+            "schema:url": "https://data.ca.gov/group/892274da-1f93-41b0-ba84-bd7e340a4d4c"
+        },
+        {
+            "@id": "https://data.ca.gov/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071/resource/29cd0b19-c7e6-4eb1-8be8-2b6e269f446e",
+            "@type": "schema:DataDownload",
+            "schema:description": "COVID-19 Vaccines Administered by Zip Code",
+            "schema:encodingFormat": "CSV",
+            "schema:name": "Statewide COVID-19 Vaccines Administered by Zip Code",
+            "schema:url": "https://data.chhs.ca.gov/dataset/ead44d40-fd63-4f9f-950a-3b0111074de8/resource/ec32eece-7474-4488-87f0-6e91cb577458/download/covid19vaccinesbyzipcode_test.csv"
+        },
+        {
+            "@id": "https://data.ca.gov/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071/resource/c5c76e8b-f190-4e59-a9a8-691239341d37",
+            "@type": "schema:DataDownload",
+            "schema:description": "COVID-19 Vaccines Shipped, Delivered, On Hand by ZIP Code - Data Dictionary",
+            "schema:encodingFormat": "XLSX",
+            "schema:name": "COVID-19 Vaccines Shipped, Delivered, On Hand by ZIP Code - Data Dictionary",
+            "schema:url": "https://data.chhs.ca.gov/dataset/ead44d40-fd63-4f9f-950a-3b0111074de8/resource/c8019550-221d-4b26-9210-2f2fbeee6cbf/download/shipped_delivered_on_hand_by_county_and_zip_odp_data_dictionary_v2.xlsx"
+        },
+        {
+            "@id": "https://data.ca.gov/dataset/c3468f2d-9591-42f6-98b8-84d3c2505071/resource/56baeab0-032d-4183-b677-ceb596259a23",
+            "@type": "schema:DataDownload",
+            "schema:encodingFormat": "ZIP",
+            "schema:name": "All resource data",
+            "schema:url": "https://data.chhs.ca.gov/dataset/ead44d40-fd63-4f9f-950a-3b0111074de8/resource/654d8c82-9d54-4178-b850-360ef082a0a4/download/covid-19-vaccine-progress-dashboard-data-by-zip-code-9u0_th.zip"
+        }
+    ]
+}
+          </script>
+      
+  
+
+  <script>document.getElementsByTagName('html')[0].className += ' js';</script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2023-02-06T19:59:53/jquery.min.js"></script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2023-02-06T19:59:53/:bundle:bootstrap/js/bootstrap.min.js;jed.min.js;moment-with-locales.min.js;select2/select2.min.js;qs.js"></script>
+<script type="text/javascript" src="/fanstatic/base/:version:2023-02-06T19:59:53/:bundle:plugins/jquery.inherit.min.js;plugins/jquery.proxy-all.min.js;plugins/jquery.url-helpers.min.js;plugins/jquery.date-helpers.min.js;plugins/jquery.slug.min.js;plugins/jquery.slug-preview.min.js;plugins/jquery.truncator.min.js;plugins/jquery.masonry.min.js;plugins/jquery.form-warning.min.js;sandbox.min.js;module.min.js;pubsub.min.js;client.min.js;notify.min.js;i18n.min.js;main.min.js;modules/select-switch.min.js;modules/slug-preview.min.js;modules/basic-form.min.js;modules/confirm-action.min.js;modules/api-info.min.js;modules/autocomplete.min.js;modules/custom-fields.min.js;modules/data-viewer.min.js;modules/table-selectable-rows.min.js;modules/resource-form.min.js;modules/resource-upload-field.min.js;modules/resource-reorder.min.js;modules/resource-view-reorder.min.js;modules/follow.min.js;modules/activity-stream.min.js;modules/dashboard.min.js;modules/resource-view-embed.min.js;view-filters.min.js;modules/resource-view-filters-form.min.js;modules/resource-view-filters.min.js;modules/table-toggle-more.min.js;modules/dataset-visibility.min.js;modules/media-grid.min.js;modules/image-upload.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/:version:2023-02-06T19:59:53/tracking.min.js"></script>
+<script type="text/javascript" src="/fanstatic/ckanext-googleanalytics/:version:2023-02-06T20:04:29/googleanalytics_event_tracking.js"></script>
+<script type="text/javascript" src="/fanstatic/ckanext-harvest/:version:2023-02-06T20:04:31/js/harvest.js"></script>
+<script type="text/javascript" src="/fanstatic/cloudstorage-js/:version:2023-02-06T20:04:45/:bundle:vendor/jquery-widget.js;vendor/file-upload.js;cloudstorage-multipart-upload.js"></script>
+<script type="text/javascript" src="/fanstatic/showcase/:version:2023-02-06T20:04:41/js/slick.js"></script><script>(function(){var js = "window['__CF$cv$params']={r:'7a44a10d487f7d5e',m:'ga0zOGDX0b07b.9xQRTQKLsX0rsDmY3zTMAegyFr0vg-1678210885-0-AY0FCt65nIKcqnoRjLaDYu8gvkSVaDXpkagiz0qDneySa3Yf3P0xtfhfjuOOW3VarvJMcs1CIirQHRgbYHnG1VsudC9QCU7J5OoqKxbWE1kZccpnjKAZJyEQOE632H6AoHdruAi7errzo6Z32PFNDTDjRCx0DYpz488eOzbzwqNn+pvRmhRlvUkzVgmEK2daQQ==',s:[0xb7d107bd82,0x7e7e3bd77d],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>
