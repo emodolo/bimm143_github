@@ -1,7 +1,7 @@
 ---
 title: "Class 10 Halloween Mini-Project"
 author: "Eduardo Modolo"
-format: pdf
+format: gfm
 ---
 
 #1. Importing candy data
